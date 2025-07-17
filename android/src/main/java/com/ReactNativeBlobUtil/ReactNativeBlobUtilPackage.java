@@ -13,7 +13,7 @@ import java.util.Map;
 
 // trick autolinking till it is fixed on RN side
 //public class ReactNativeBlobUtilPackage extends TurboReactPackage {
-public class ReactNativeBlobUtilPackage extends BaseReactPackage {
+public class ReactNativeBlobUtilPackage implements ReactPackage {
 
     @Nullable
     @Override
